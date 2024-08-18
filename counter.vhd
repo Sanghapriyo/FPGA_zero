@@ -6,8 +6,7 @@ entity counter is
     port (  
         clk   : in std_logic;
         rst   : in std_logic;
-        count : out std_logic_vector(31 downto 0)
-    );
+        count : out std_logic_vector(31 downto 0) );
 end entity counter;
 
 architecture arch of counter is 
